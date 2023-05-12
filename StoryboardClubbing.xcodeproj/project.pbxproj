@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4143C7EF2A0E50D400EE87A0 /* DatePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143C7EE2A0E50D400EE87A0 /* DatePicker.storyboard */; };
-		4143C7F12A0E5C2200EE87A0 /* UiCollectionVIew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143C7F02A0E5C2200EE87A0 /* UiCollectionVIew.storyboard */; };
+		4143C7F12A0E5C2200EE87A0 /* UICollectionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143C7F02A0E5C2200EE87A0 /* UICollectionView.storyboard */; };
 		4143C7F52A0E5D8800EE87A0 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143C7F42A0E5D8800EE87A0 /* MyTableViewCell.swift */; };
+		4143C7F72A0E600700EE87A0 /* UiCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143C7F62A0E600700EE87A0 /* UiCollectionViewController.swift */; };
 		4179C1042A0E5064003629A9 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4179C1022A0E5064003629A9 /* MyTableViewCell.xib */; };
 		41BD7EAA2A0E0A3B006F378F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD7EA92A0E0A3B006F378F /* AppDelegate.swift */; };
 		41BD7EAC2A0E0A3B006F378F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD7EAB2A0E0A3B006F378F /* SceneDelegate.swift */; };
@@ -23,8 +24,9 @@
 
 /* Begin PBXFileReference section */
 		4143C7EE2A0E50D400EE87A0 /* DatePicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DatePicker.storyboard; sourceTree = "<group>"; };
-		4143C7F02A0E5C2200EE87A0 /* UiCollectionVIew.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UiCollectionVIew.storyboard; sourceTree = "<group>"; };
+		4143C7F02A0E5C2200EE87A0 /* UICollectionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UICollectionView.storyboard; sourceTree = "<group>"; };
 		4143C7F42A0E5D8800EE87A0 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		4143C7F62A0E600700EE87A0 /* UiCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiCollectionViewController.swift; sourceTree = "<group>"; };
 		4179C1022A0E5064003629A9 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		41BD7EA62A0E0A3B006F378F /* StoryboardClubbing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardClubbing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BD7EA92A0E0A3B006F378F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			children = (
 				41BD7EC12A0E0A75006F378F /* Storyboards */,
 				41BD7EA92A0E0A3B006F378F /* AppDelegate.swift */,
+				4143C7F62A0E600700EE87A0 /* UiCollectionViewController.swift */,
 				41BD7EAB2A0E0A3B006F378F /* SceneDelegate.swift */,
 				41BD7EAD2A0E0A3B006F378F /* ViewController.swift */,
 				41BD7EBF2A0E0A6D006F378F /* DatePickerViewController.swift */,
@@ -88,7 +91,7 @@
 				41BD7EB42A0E0A3D006F378F /* LaunchScreen.storyboard */,
 				4179C1022A0E5064003629A9 /* MyTableViewCell.xib */,
 				4143C7EE2A0E50D400EE87A0 /* DatePicker.storyboard */,
-				4143C7F02A0E5C2200EE87A0 /* UiCollectionVIew.storyboard */,
+				4143C7F02A0E5C2200EE87A0 /* UICollectionView.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -154,7 +157,7 @@
 				41BD7EB62A0E0A3D006F378F /* LaunchScreen.storyboard in Resources */,
 				4179C1042A0E5064003629A9 /* MyTableViewCell.xib in Resources */,
 				41BD7EB32A0E0A3D006F378F /* Assets.xcassets in Resources */,
-				4143C7F12A0E5C2200EE87A0 /* UiCollectionVIew.storyboard in Resources */,
+				4143C7F12A0E5C2200EE87A0 /* UICollectionView.storyboard in Resources */,
 				41BD7EB12A0E0A3B006F378F /* Main.storyboard in Resources */,
 				4143C7EF2A0E50D400EE87A0 /* DatePicker.storyboard in Resources */,
 			);
@@ -171,6 +174,7 @@
 				41BD7EC02A0E0A6D006F378F /* DatePickerViewController.swift in Sources */,
 				41BD7EAA2A0E0A3B006F378F /* AppDelegate.swift in Sources */,
 				41BD7EAC2A0E0A3B006F378F /* SceneDelegate.swift in Sources */,
+				4143C7F72A0E600700EE87A0 /* UiCollectionViewController.swift in Sources */,
 				41BD7EBE2A0E0A59006F378F /* HomeViewController.swift in Sources */,
 				4143C7F52A0E5D8800EE87A0 /* MyTableViewCell.swift in Sources */,
 			);

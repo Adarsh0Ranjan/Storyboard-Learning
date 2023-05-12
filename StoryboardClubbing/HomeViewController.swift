@@ -12,7 +12,7 @@ class HomeViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var table: UITableView!
    
-    let data = ["DatePicker", "UiCollectionView","Onboardingview"]
+    let data = ["DatePicker", "UICollectionView","Onboardingview"]
     
 
     override func viewDidLoad() {
@@ -45,10 +45,11 @@ class HomeViewController: UIViewController, UITableViewDataSource {
 extension HomeViewController: MyTableViewCellDelegate {
     func didTapButton(with title: String) {
             let storyboard = UIStoryboard(name: title, bundle: nil)
+        print(storyboard)
             guard let newViewController = storyboard.instantiateViewController(withIdentifier: title) as? UIViewController else {
                 return
             }
-            
+            print(newViewController)
             let navigation = UINavigationController(rootViewController: newViewController)
             navigation.modalPresentationStyle = .fullScreen
             
