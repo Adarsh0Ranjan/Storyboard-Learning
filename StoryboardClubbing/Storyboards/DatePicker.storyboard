@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Date Picker View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DatePicker" id="Y6W-OH-hqX" customClass="DatePickerViewController" customModule="StoryboardClubbing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9mZ-OZ-eSS">
+                                <rect key="frame" x="10" y="401" width="373" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="we0-50-Q4E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D1M-l8-Wkk">
+                                <rect key="frame" x="10" y="471" width="373" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5hA-S9-02l"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Gt0-Z1-OEA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p7M-lp-rxk">
+                                <rect key="frame" x="10" y="541" width="373" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="h4i-Hj-EBx"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="jok-vP-ntk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="p7M-lp-rxk" firstAttribute="top" secondItem="D1M-l8-Wkk" secondAttribute="bottom" constant="20" id="09g-NJ-ThB"/>
+                            <constraint firstItem="9mZ-OZ-eSS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="7Ga-0U-Zgj"/>
+                            <constraint firstItem="9mZ-OZ-eSS" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="9YE-MQ-WVE"/>
+                            <constraint firstItem="9mZ-OZ-eSS" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="Fqr-77-HQa"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="D1M-l8-Wkk" secondAttribute="trailing" constant="10" id="HPU-N9-VVv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="p7M-lp-rxk" secondAttribute="trailing" constant="10" id="IbI-Si-gl7"/>
+                            <constraint firstItem="p7M-lp-rxk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="Qt5-as-gbx"/>
+                            <constraint firstItem="D1M-l8-Wkk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="T8b-Vy-y68"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9mZ-OZ-eSS" secondAttribute="trailing" constant="10" id="cYj-fb-YKB"/>
+                            <constraint firstItem="D1M-l8-Wkk" firstAttribute="top" secondItem="9mZ-OZ-eSS" secondAttribute="bottom" constant="20" id="zXq-zp-FcK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="DOB" destination="9mZ-OZ-eSS" id="No0-vr-CBU"/>
+                        <outlet property="last20yrs" destination="D1M-l8-Wkk" id="tz2-bR-VZf"/>
+                        <outlet property="upcomingWeek" destination="p7M-lp-rxk" id="QXI-IX-wKZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
