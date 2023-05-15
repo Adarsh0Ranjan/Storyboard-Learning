@@ -12,6 +12,15 @@
 		4143C7F52A0E5D8800EE87A0 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143C7F42A0E5D8800EE87A0 /* MyTableViewCell.swift */; };
 		4143C7F72A0E600700EE87A0 /* UiCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143C7F62A0E600700EE87A0 /* UiCollectionViewController.swift */; };
 		4179C1042A0E5064003629A9 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4179C1022A0E5064003629A9 /* MyTableViewCell.xib */; };
+		418B25B92A11F00D00C21B41 /* OnboardingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418B25B82A11F00D00C21B41 /* OnboardingView.storyboard */; };
+		418B25BF2A11F68F00C21B41 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B25BE2A11F68F00C21B41 /* OnboardingCollectionViewCell.swift */; };
+		418B25C12A11F8C400C21B41 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B25C02A11F8C400C21B41 /* OnboardingViewController.swift */; };
+		418B25C32A1220D300C21B41 /* CollectionVIewWithTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418B25C22A1220D300C21B41 /* CollectionVIewWithTableView.storyboard */; };
+		418B25C92A1224B200C21B41 /* CollectionOfCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B25C82A1224B200C21B41 /* CollectionOfCards.swift */; };
+		418B25CB2A12250C00C21B41 /* CollectionIndsideTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B25CA2A12250C00C21B41 /* CollectionIndsideTableViewController.swift */; };
+		418B25D02A12275700C21B41 /* CollectionWithTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B25CF2A12275700C21B41 /* CollectionWithTableViewController.swift */; };
+		418B25D22A122F8D00C21B41 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B25D12A122F8D00C21B41 /* TableViewCell.swift */; };
+		418B25D42A122F9900C21B41 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B25D32A122F9900C21B41 /* CollectionViewCell.swift */; };
 		41BD7EAA2A0E0A3B006F378F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD7EA92A0E0A3B006F378F /* AppDelegate.swift */; };
 		41BD7EAC2A0E0A3B006F378F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD7EAB2A0E0A3B006F378F /* SceneDelegate.swift */; };
 		41BD7EAE2A0E0A3B006F378F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD7EAD2A0E0A3B006F378F /* ViewController.swift */; };
@@ -28,6 +37,15 @@
 		4143C7F42A0E5D8800EE87A0 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		4143C7F62A0E600700EE87A0 /* UiCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiCollectionViewController.swift; sourceTree = "<group>"; };
 		4179C1022A0E5064003629A9 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		418B25B82A11F00D00C21B41 /* OnboardingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingView.storyboard; sourceTree = "<group>"; };
+		418B25BE2A11F68F00C21B41 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		418B25C02A11F8C400C21B41 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		418B25C22A1220D300C21B41 /* CollectionVIewWithTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CollectionVIewWithTableView.storyboard; sourceTree = "<group>"; };
+		418B25C82A1224B200C21B41 /* CollectionOfCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionOfCards.swift; sourceTree = "<group>"; };
+		418B25CA2A12250C00C21B41 /* CollectionIndsideTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionIndsideTableViewController.swift; sourceTree = "<group>"; };
+		418B25CF2A12275700C21B41 /* CollectionWithTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionWithTableViewController.swift; sourceTree = "<group>"; };
+		418B25D12A122F8D00C21B41 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		418B25D32A122F9900C21B41 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		41BD7EA62A0E0A3B006F378F /* StoryboardClubbing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardClubbing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BD7EA92A0E0A3B006F378F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41BD7EAB2A0E0A3B006F378F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,9 +69,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		418B25CC2A1226B400C21B41 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				418B25CE2A1226F800C21B41 /* CollectionWIthTableUiView */,
+				418B25CD2A1226C100C21B41 /* DatePickers */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		418B25CD2A1226C100C21B41 /* DatePickers */ = {
+			isa = PBXGroup;
+			children = (
+				41BD7EBF2A0E0A6D006F378F /* DatePickerViewController.swift */,
+			);
+			path = DatePickers;
+			sourceTree = "<group>";
+		};
+		418B25CE2A1226F800C21B41 /* CollectionWIthTableUiView */ = {
+			isa = PBXGroup;
+			children = (
+				418B25C82A1224B200C21B41 /* CollectionOfCards.swift */,
+				418B25CF2A12275700C21B41 /* CollectionWithTableViewController.swift */,
+				418B25D12A122F8D00C21B41 /* TableViewCell.swift */,
+				418B25D32A122F9900C21B41 /* CollectionViewCell.swift */,
+			);
+			path = CollectionWIthTableUiView;
+			sourceTree = "<group>";
+		};
 		41BD7E9D2A0E0A3B006F378F = {
 			isa = PBXGroup;
 			children = (
+				418B25CA2A12250C00C21B41 /* CollectionIndsideTableViewController.swift */,
 				41BD7EA82A0E0A3B006F378F /* StoryboardClubbing */,
 				41BD7EA72A0E0A3B006F378F /* Products */,
 			);
@@ -70,12 +117,14 @@
 		41BD7EA82A0E0A3B006F378F /* StoryboardClubbing */ = {
 			isa = PBXGroup;
 			children = (
-				41BD7EC12A0E0A75006F378F /* Storyboards */,
 				41BD7EA92A0E0A3B006F378F /* AppDelegate.swift */,
+				418B25CC2A1226B400C21B41 /* ViewModels */,
+				41BD7EC12A0E0A75006F378F /* Storyboards */,
+				418B25C02A11F8C400C21B41 /* OnboardingViewController.swift */,
+				418B25BE2A11F68F00C21B41 /* OnboardingCollectionViewCell.swift */,
 				4143C7F62A0E600700EE87A0 /* UiCollectionViewController.swift */,
 				41BD7EAB2A0E0A3B006F378F /* SceneDelegate.swift */,
 				41BD7EAD2A0E0A3B006F378F /* ViewController.swift */,
-				41BD7EBF2A0E0A6D006F378F /* DatePickerViewController.swift */,
 				41BD7EBD2A0E0A59006F378F /* HomeViewController.swift */,
 				4143C7F42A0E5D8800EE87A0 /* MyTableViewCell.swift */,
 				41BD7EB22A0E0A3D006F378F /* Assets.xcassets */,
@@ -91,7 +140,9 @@
 				41BD7EB42A0E0A3D006F378F /* LaunchScreen.storyboard */,
 				4179C1022A0E5064003629A9 /* MyTableViewCell.xib */,
 				4143C7EE2A0E50D400EE87A0 /* DatePicker.storyboard */,
+				418B25C22A1220D300C21B41 /* CollectionVIewWithTableView.storyboard */,
 				4143C7F02A0E5C2200EE87A0 /* UICollectionView.storyboard */,
+				418B25B82A11F00D00C21B41 /* OnboardingView.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -157,9 +208,11 @@
 				41BD7EB62A0E0A3D006F378F /* LaunchScreen.storyboard in Resources */,
 				4179C1042A0E5064003629A9 /* MyTableViewCell.xib in Resources */,
 				41BD7EB32A0E0A3D006F378F /* Assets.xcassets in Resources */,
+				418B25C32A1220D300C21B41 /* CollectionVIewWithTableView.storyboard in Resources */,
 				4143C7F12A0E5C2200EE87A0 /* UICollectionView.storyboard in Resources */,
 				41BD7EB12A0E0A3B006F378F /* Main.storyboard in Resources */,
 				4143C7EF2A0E50D400EE87A0 /* DatePicker.storyboard in Resources */,
+				418B25B92A11F00D00C21B41 /* OnboardingView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,12 +223,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418B25D22A122F8D00C21B41 /* TableViewCell.swift in Sources */,
 				41BD7EAE2A0E0A3B006F378F /* ViewController.swift in Sources */,
 				41BD7EC02A0E0A6D006F378F /* DatePickerViewController.swift in Sources */,
 				41BD7EAA2A0E0A3B006F378F /* AppDelegate.swift in Sources */,
+				418B25C92A1224B200C21B41 /* CollectionOfCards.swift in Sources */,
+				418B25BF2A11F68F00C21B41 /* OnboardingCollectionViewCell.swift in Sources */,
 				41BD7EAC2A0E0A3B006F378F /* SceneDelegate.swift in Sources */,
+				418B25D02A12275700C21B41 /* CollectionWithTableViewController.swift in Sources */,
+				418B25CB2A12250C00C21B41 /* CollectionIndsideTableViewController.swift in Sources */,
 				4143C7F72A0E600700EE87A0 /* UiCollectionViewController.swift in Sources */,
+				418B25D42A122F9900C21B41 /* CollectionViewCell.swift in Sources */,
 				41BD7EBE2A0E0A59006F378F /* HomeViewController.swift in Sources */,
+				418B25C12A11F8C400C21B41 /* OnboardingViewController.swift in Sources */,
 				4143C7F52A0E5D8800EE87A0 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,7 +12,7 @@ class HomeViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var table: UITableView!
    
-    let data = ["DatePicker", "UICollectionView","Onboardingview"]
+    let data = ["DatePicker", "CollectionVIewWithTableView","OnboardingView"]
     
 
     override func viewDidLoad() {
@@ -25,7 +25,7 @@ class HomeViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60  // Adjust this value to change the height of the cells
+        return 60
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
