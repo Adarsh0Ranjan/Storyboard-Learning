@@ -12,7 +12,7 @@ class HomeViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var table: UITableView!
    
-    let data = ["DatePicker", "CollectionVIewWithTableView","OnboardingView"]
+    let data = ["DatePicker", "CollectionVIewWithTableView","Onboarding"]
     
 
     override func viewDidLoad() {
@@ -29,7 +29,7 @@ class HomeViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: MyTableViewCell.identifier, for: indexPath) as! MyTableViewCell
+        let cell = table.dequeueReusableCell(withIdentifier: MyTableViewCell.identifier, for: indexPath) as! MyTableViewCell
         cell.configure(with: data[indexPath.row])
         cell.delegate = self
         
