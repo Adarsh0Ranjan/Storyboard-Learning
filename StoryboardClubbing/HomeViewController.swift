@@ -12,7 +12,7 @@ class HomeViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var table: UITableView!
    
-    let data = ["DatePicker", "CollectionVIewWithTableView","Onboarding"]
+    let data = ["DatePicker", "CollectionVIewWithTableView","Onboarding", "CollectionViewGrid"]
     
 
     override func viewDidLoad() {
